@@ -1,15 +1,48 @@
 .header {
     display: flex;
     background-color: rgb(50, 167, 145);
-    align-items: center;
-    justify-content: space-between;
   }
-
+  
+  .trybewarts-login {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .trybewarts-login input {
+    width: 55%;
+  }
+  
+  main {
+    display: flex;
+  }
+  
   #evaluation-form {
     display: flex;
-    width: 675px;
-    margin-left: 2%;
     flex-direction: column;
-    align-content: space-between;
-    justify-content: space-evenly;
+    width: 675px;
   }
+  
+  #trybewarts-forms-logo {
+    height: 500px;
+  }
+  
+  .name-lastname {
+    display: flex;
+  }
+  
+  .email-house {
+    display: flex;
+  }
+  
+  .radio-buttons {
+    display: flex;
+  }
+  
+  .agreement {
+    display: flex;
+  }
+
+  footer {
+    margin-top: 10%;
+  }
+t
